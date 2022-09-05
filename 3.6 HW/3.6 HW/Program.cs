@@ -8,12 +8,16 @@ float _programmingPoints = 79.3f;
 float _mathPoints = 76.2f;
 float _physicsPoints = 60.2f;
 
-Console.WriteLine(string.Format("Ф.И.О. - {0}", _fullName));
-Console.WriteLine(string.Format("Возраст - {0}", _age));
-Console.WriteLine(string.Format("Электронная почта - {0}", _email));
-Console.WriteLine(string.Format("Баллы по программированию - {0}", _programmingPoints));
-Console.WriteLine(string.Format("Баллы по математике - {0}", _mathPoints));
-Console.WriteLine(string.Format("Баллы по физике - {0}", _physicsPoints));
+string _outputPattern = "Ф.И.О. - {0,10}\nВозраст - {1}\nЭлектронная почта - {2}\nБаллы по программированию - {3}\nБаллы по математике - {4}\nБаллы по физике - {5}";
+
+Console.WriteLine(_outputPattern,
+    _fullName,
+    _age,
+    _email,
+    _programmingPoints,
+    _mathPoints,
+    _physicsPoints
+    );
 #endregion
 
 #region Task 2
@@ -23,8 +27,8 @@ float avearagePointsValue;
 pointsSumm = _programmingPoints + _mathPoints + _physicsPoints;
 avearagePointsValue = pointsSumm / 3;
 
-Console.ReadLine();
+Console.ReadKey();
 Console.WriteLine(string.Format("Сумма баллов по всем предметам - {0}", pointsSumm));
-Console.ReadLine();
+Console.ReadKey();
 Console.WriteLine(string.Format("Средний балл - {0}", avearagePointsValue));
 #endregion

@@ -92,15 +92,19 @@ do
 {
     str5 = Console.ReadLine();
 
-    if (int.TryParse(str5, out value5))
+    if (str5.Equals(string.Empty))
+    {
+        break;
+    }
+    else if (int.TryParse(str5, out value5))
     {
         if (value5 > secretNumber)
             Console.WriteLine("Загаданное число меньше того что ввели вы.");
         else if (value5 < secretNumber)
             Console.WriteLine("Загаданное число больше того что ввели вы.");
     }
-    else if (str.Length < 1)
-        break;
+    else
+        Console.WriteLine("Не распознано, повторите ввод.");
 }
 while (value5 != secretNumber);
 

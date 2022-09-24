@@ -1,0 +1,15 @@
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\bin\Debug\net6.0\Task_1.exe
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\bin\Debug\net6.0\Task_1.deps.json
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\bin\Debug\net6.0\Task_1.runtimeconfig.json
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\bin\Debug\net6.0\Task_1.dll
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\bin\Debug\net6.0\Task_1.pdb
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\Task_1.csproj.AssemblyReference.cache
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\Task_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\Task_1.AssemblyInfoInputs.cache
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\Task_1.AssemblyInfo.cs
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\Task_1.csproj.CoreCompileInputs.cache
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\Task_1.dll
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\refint\Task_1.dll
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\Task_1.pdb
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\Task_1.genruntimeconfig.cache
+E:\Files\GitReps\Kotelnikov-ranepa2022-C-Basics\HW 6.8\Task_1\obj\Debug\net6.0\ref\Task_1.dll

@@ -10,12 +10,15 @@ namespace HW_12._8.Operations
     {
         public override string OperationName => "Просмотр одной записи по id";
 
-        public override void Execute(Repository<Worker> repository)
+        public override void Execute(IRepository<Worker> repository)
         {
             if (!repository.Empty)
             {
                 Log("Введите id искомого рабочего...");
-                Log(repository.Get(int.Parse(Console.ReadLine())).ToString());
+                int id = int.Parse(Console.ReadLine());
+                var data = repository.Get(id);
+                if (!data.IsNull)
+                    Log(data.Value.ToString());
             }
             else
             {

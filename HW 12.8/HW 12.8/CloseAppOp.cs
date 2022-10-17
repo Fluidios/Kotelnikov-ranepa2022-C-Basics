@@ -10,7 +10,7 @@ namespace HW_12._8.Operations
     {
         public override string OperationName => "Закрыть программу";
 
-        public override void Execute(Repository<Worker> repository)
+        public override void Execute(IRepository<Worker> repository)
         {
             Log("Завершение программы...");
         }

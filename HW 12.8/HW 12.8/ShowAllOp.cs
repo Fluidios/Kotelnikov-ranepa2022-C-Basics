@@ -10,7 +10,7 @@ namespace HW_12._8.Operations
     {
         public override string OperationName => "Просмотреть все записи";
 
-        public override void Execute(Repository<Worker> repository)
+        public override void Execute(IRepository<Worker> repository)
         {
             if (!repository.Empty)
                 LogWorkersList(repository.GetAll());

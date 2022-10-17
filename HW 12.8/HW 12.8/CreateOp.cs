@@ -10,7 +10,7 @@ namespace HW_12._8.Operations
     {
         public override string OperationName => "Создать запись";
 
-        public override void Execute(Repository<Worker> repository)
+        public override void Execute(IRepository<Worker> repository)
         {
             Log("Следуйте инструкции...");
             repository.Add(CreateWorker());

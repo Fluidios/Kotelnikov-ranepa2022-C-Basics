@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace HW_12._8
 {
-    internal abstract class RepositoryOperation<T> where T : ISerializable<T>
+    internal abstract class RepositoryOperation<T>
     {
         public abstract string OperationName { get; }
-        public abstract void Execute(Repository<T> repository);
+        public abstract void Execute(IRepository<T> repository);
 
         internal void Log(string message)
         {
@@ -31,11 +31,12 @@ namespace HW_12._8
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        internal void LogWorkersList(Worker[] list)
+        internal void LogWorkersList(RepositoryData<T>[] list)
         {
             foreach (var item in list)
             {
-                Log(item.ToString());
+                if (item == null || item.IsNull) continue;
+                Log(item.Value.ToString());
                 Log("-------------------------------------");
             }
         }

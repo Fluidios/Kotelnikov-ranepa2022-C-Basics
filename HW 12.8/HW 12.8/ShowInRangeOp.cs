@@ -10,7 +10,7 @@ namespace HW_12._8.Operations
     {
         public override string OperationName => "Просмотр записей в выбранном диапазоне дат";
 
-        public override void Execute(Repository<Worker> repository)
+        public override void Execute(IRepository<Worker> repository)
         {
             if (!repository.Empty)
             {
@@ -22,7 +22,7 @@ namespace HW_12._8.Operations
                 s = Console.ReadLine().Split('.');
                 DateTime to = new DateTime(int.Parse(s[2]), int.Parse(s[1]), int.Parse(s[0]));
 
-                Worker[] searchResult = repository.GetAll((Worker w) =>
+                var searchResult = repository.GetAll((Worker w) =>
                 (
                     w.DataCreationTime.Subtract(from).Days > 0 &&
                     w.DataCreationTime.Subtract(to).Days < 0
